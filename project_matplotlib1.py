@@ -12,7 +12,7 @@ data = data.set_index('date')
 print('data',data)
 
 # 產生 line chart
-data.plot(kind='bar')
+data.plot(kind='line')
 # 設定圖表標頭
 plt.title('stock performance')
 # 顯示圖表
